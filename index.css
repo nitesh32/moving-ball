@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#ball{
+    height: 150px;
+    width: 150px;
+    border: 2px double black;
+    border-radius: 50%;
+    background-image: radial-gradient(red,orange ,yellow  );
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
